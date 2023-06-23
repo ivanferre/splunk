@@ -31,3 +31,5 @@ Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_G
  BOTSv3 envrioment: <http://3.67.98.121:8000/>
 
  [Splunk Boss of the SOCs (BOTS) V3 — Part 1](https://ellisstannard.medium.com/boss-of-the-socs-bots-v3-part-1-3a0d92b851b4)
+
+Video playlist: [Splunk Fundamentals for Users and Power Users](https://www.youtube.com/playlist?list=PL7zWAA-DF0k_sxswRiB7_GUTyI0FoV7lc)
