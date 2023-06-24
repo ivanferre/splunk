@@ -24,6 +24,29 @@ Also find attached a Quick Reference Handbook for splunk. When I first learned s
 
 On a sidenote: If someone of you wants to go into the field of Penetration Testing and wants to do some work related to this instead of splunk (which is only SOC) please reach out to me. :slightly_smiling_face: Happy Logging.
 
+## Splunk SIEM Basics For Beginners
+
+[Splunk SIEM Basics For Beginners | TryHackMe Splunk: Basics](https://www.youtube.com/watch?v=Wd0uHZL1L1U)
+
+Splunk is a **SIEM tool**: Security Information and Event Management.
+
+- Collecting **logs** from hosts and network devices,
+- Normalizing,
+- Analyzing, and
+- Alerting.
+
+All depends on the configuration of the **rules**.
+
+Splunk consists of 3 components:
+
+- Forwarder: the agent tool which you install on hosts and devices, and collects all the logs.
+- Indexer: processes the logs collected by the forwarder, and stores them.
+- Search head: enables searching into the normalized logs.
+
+When you want to install Splunk, you first install the forwarder agents.
+
+Indexes normalizes and stores the data in _field=value_ pairs.
+
 ## TODO
 
 Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_GUTyI0FoV7lc&index=2>
