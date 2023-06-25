@@ -65,11 +65,15 @@ Splunk offers JSON data model files to help validate indexed data for compliance
 
 Free add-on at: [splunkbase.splunk.com](splunkbase.splunk.com)
 
-## TODO
+## Basic Search in Splunk
+
+[Basic Searching in Splunk Enterprise](https://youtu.be/GWl-TuAAF-k)
 
 Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_GUTyI0FoV7lc&index=2>
 
- BOTSv3 envrioment: <http://3.67.98.121:8000/>
+## TODO
+
+ BOTSv3 environment: <http://3.67.98.121:8000/>
 
  [Splunk Boss of the SOCs (BOTS) V3 — Part 1](https://ellisstannard.medium.com/boss-of-the-socs-bots-v3-part-1-3a0d92b851b4)
 
