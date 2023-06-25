@@ -90,16 +90,28 @@ Q44: **What is the first executable uploaded to the domain admin account's compr
 Q45: **From what country is a small brute force or password spray attack occurring against the Frothly web servers?
 The adversary created a BCC rule to forward Frothly's email to his personal account. What is the value of the "Name" parameter set to?**
 
-What is the password for the user that was created on the compromised endpoint?
-The Taedonggang adversary sent Grace Hoppy an email bragging about the successful exfiltration of customer data. How many Frothly customer emails were exposed or revealed?
-What is the path of the URL being accessed by the command and control server? Answer guidance: Provide the full path. (Example: The full path for the URL <https://imgur.com/a/mAqgt4S/lasd3.jpg> is /a/mAqgt4S/lasd3.jpg)
-At least two Frothly endpoints contact the adversary's command and control infrastructure. What are their short hostnames? Answer guidance: Comma separated without spaces, in alphabetical order.
-Who is Al Bungstein's cell phone provider/carrier? Answer guidance: Two words.
-Microsoft cloud services often have a delay or lag between "index time" and "event creation time". For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin? Answer guidance: Round to the nearest minute without the unit of measure.
-According to Mallory's advertising research, how is beer meant to be enjoyed? Answer guidance: One word.
-What text is displayed on line 2 of the file used to escalate tomcat8's permissions to root? Answer guidance: Provide contents of the entire line.
-One of the files uploaded by Taedonggang contains a word that is a much larger in font size than any other in the file. What is that word?
-What Frothly VPN user generated the most traffic? Answer guidance: Provide the VPN user name.
-Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier. Answer guidance: UF = Q3 + 1.5 x IQR
-What is the CVE of the vulnerability that escalated permissions on Linux host hoth? Answer guidance: Submit in normal CVE format. (Example: cve-2018-9805)
-What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth? Answer guidance: Submit in normal CVE format. (Example: cve-2018-9805)
+Q46: **What is the password for the user that was created on the compromised endpoint?**
+
+Q47: **The Taedonggang adversary sent Grace Hoppy an email bragging about the successful exfiltration of customer data. How many Frothly customer emails were exposed or revealed?**
+
+Q48: **What is the path of the URL being accessed by the command and control server? Answer guidance: Provide the full path. (Example: The full path for the URL <https://imgur.com/a/mAqgt4S/lasd3.jpg> is /a/mAqgt4S/lasd3.jpg)**
+
+Q49: **At least two Frothly endpoints contact the adversary's command and control infrastructure. What are their short hostnames? Answer guidance: Comma separated without spaces, in alphabetical order.**
+
+Q50: **Who is Al Bungstein's cell phone provider/carrier? Answer guidance: Two words.**
+
+Q51: **Microsoft cloud services often have a delay or lag between "index time" and "event creation time". For the entire day, what is the max lag, in minutes, for the sourcetype: ms:aad:signin? Answer guidance: Round to the nearest minute without the unit of measure.**
+
+Q52: **According to Mallory's advertising research, how is beer meant to be enjoyed? Answer guidance: One word.**
+
+Q53: **What text is displayed on line 2 of the file used to escalate tomcat8's permissions to root? Answer guidance: Provide contents of the entire line.**
+
+Q54: **One of the files uploaded by Taedonggang contains a word that is a much larger in font size than any other in the file. What is that word?**
+
+Q55: **What Frothly VPN user generated the most traffic? Answer guidance: Provide the VPN user name.**
+
+Q56: **Using Splunk commands only, what is the upper fence (UF) value of the interquartile range (IQR) of the count of event code 4688 by Windows hosts over the entire day? Use a 1.5 multiplier. Answer guidance: UF = Q3 + 1.5 x IQR**
+
+Q57: **What is the CVE of the vulnerability that escalated permissions on Linux host hoth? Answer guidance: Submit in normal CVE format. (Example: cve-2018-9805)**
+
+Q58: **What is the CVE of the vulnerability that was exploited to run commands on Linux host hoth? Answer guidance: Submit in normal CVE format. (Example: cve-2018-9805)**
