@@ -71,6 +71,24 @@ Free add-on at: [splunkbase.splunk.com](splunkbase.splunk.com)
 
 Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_GUTyI0FoV7lc&index=2>
 
+## Start Splank in Local Computer
+
+In any case, after performing the following steps, navigate to this address in a supported browser: <http://127.0.0.1:8000/>
+
+### Windows
+
+ In subsequent examples and information, replace `$SPLUNK_HOME with C:\Program Files\Splunk` if you have installed Splunk in the default location. You can also add `%SPLUNK_HOME%` as a system-wide environment variable by using the Advanced tab in the System Properties dialog box.
+
+From a command prompt or PowerShell window, run the following commands:
+
+    cd <Splunk Enterprise installation directory>\bin
+    splunk start
+
+### Linux
+
+    cd $SPLUNK_HOME/bin
+    ./splunk start
+
 ## TODO
 
  BOTSv3 environment: <http://3.67.98.121:8000/>
@@ -86,3 +104,5 @@ Video playlist: [Splunk Fundamentals for Users and Power Users](https://www.yout
 - <http://docs.splunk.com>
 - <http://splk.it/how-to>
 - <http://education.splunk.com>
+- <https://www.splunk.com/en_us/blog/learn/splunk-tutorials.html>
+- <https://medium.com/edureka/splunk-tutorial-3e1b5a22e6fe>
