@@ -47,6 +47,24 @@ When you want to install Splunk, you first install the forwarder agents.
 
 Indexes normalizes and stores the data in _field=value_ pairs.
 
+### Acquire Data
+
+Three ways:
+
+- Upload data from local computer.
+- Forward data from a Splunk agent installed on an end-point or network device.
+- Monitor files or ports on a Splunk instance.
+
+## Splunk CIM
+
+[Demystifying the Splunk CIM](https://youtu.be/BR2uPHTAFSo)
+
+Common Information Model (CIM) provides methodology for normalizing values to a common field name. Uses a common schema to search data,, running reports, and create dashboards.
+
+Splunk offers JSON data model files to help validate indexed data for compliance, use normalized data in pivots, and improve performance through data model  acceleration.
+
+Free add-on at: [splunkbase.splunk.com](splunkbase.splunk.com)
+
 ## TODO
 
 Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_GUTyI0FoV7lc&index=2>
@@ -57,4 +75,10 @@ Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_G
 
 Video playlist: [Splunk Fundamentals for Users and Power Users](https://www.youtube.com/playlist?list=PL7zWAA-DF0k_sxswRiB7_GUTyI0FoV7lc)
 
-<https://www.coursera.org/learn/pythonforcybersecurity-introduction>
+## Further learning
+
+- <https://www.coursera.org/learn/pythonforcybersecurity-introduction>
+
+- <http://docs.splunk.com>
+- <http://splk.it/how-to>
+- <http://education.splunk.com>
