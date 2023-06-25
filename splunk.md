@@ -102,6 +102,8 @@ Video playlist: [Splunk Fundamentals for Users and Power Users](https://www.yout
 ### Official Splunk Tutorial
 
 - <https://docs.splunk.com/Documentation/Splunk/7.1.9/SearchTutorial/StartSplunk>
+
+- <https://docs.splunk.com/Documentation/Splunk/9.0.5/SearchTutorial/WelcometotheSearchTutorial>
 - <https://docs.splunk.com/Documentation/Splunk/7.1.9/Installation/ReadytostartusingSplunk>
 
 ## Further learning
