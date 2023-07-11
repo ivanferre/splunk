@@ -106,6 +106,14 @@ Video playlist: [Splunk Fundamentals for Users and Power Users](https://www.yout
 - <https://docs.splunk.com/Documentation/Splunk/9.0.5/SearchTutorial/WelcometotheSearchTutorial>
 - <https://docs.splunk.com/Documentation/Splunk/7.1.9/Installation/ReadytostartusingSplunk>
 
+## BOTSv2
+
+- <https://samsclass.info/50/proj/botsv2.htm>
+- <https://github.com/splunk/botsv2>
+- <https://splunkbase.splunk.com/app/4430>
+- <https://events.splunk.com/BOTS_2_0_datasets>
+- <https://www.splunk.com/en_us/form/through-the-looking-glass-table.html>
+
 ## Further learning
 
 - <https://www.coursera.org/learn/pythonforcybersecurity-introduction>
