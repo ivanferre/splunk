@@ -1,4 +1,7 @@
+# OLIVER'S MAIL
+
 Nice to meet you! If in doubt, I would recommend the Ubuntu installation over the Windows installation. Running Splunk on Windows is supported but it's rather a niche use case compared to running on Unix.
+
 If no data is showing, then there must be an issue with the bots dataset downloaded from here (<https://github.com/splunk/botsv3>). I recommend trying to get this running before proceeding with the other prerequisites (data will still be available even if the other apps are not yet installed).
 I just verified on my Ubuntu installation with the latest Splunk Enterprise version (9.1.0) and data did populate. However, there might be some of the other apps that are no longer compatible with Splunk 9, as there are some requirements regarding Python & jQuery version that might not be met. BOTSv3 came out around 2020, so Splunk Enterprise 8.2 or even 8.1 might be a better option.
 
