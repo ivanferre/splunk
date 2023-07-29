@@ -98,15 +98,21 @@ From a command prompt or PowerShell window, run the following commands:
 
 ## BOTSv3
 
+### Install BOTSv3 Dataset
+
 Download Dataset from <https://github.com/splunk/botsv3>
 
 Install the dataset following the advice from Oliver.
 
-## Install BOTSv3 Dataset
+### Download BOTSv3 Apps
 
-Following this source: [Splunk Boss of the SOC v3 Datasets: Your Ultimate Guide to Installation and Configuration for Effective Security Analysis](https://www.linkedin.com/pulse/splunk-boss-soc-v3-datasets-your-ultimate-guide-uday-subramanya-hs).
+Install pre-requisite apps following this source: [Splunk Boss of the SOC v3 Datasets: Your Ultimate Guide to Installation and Configuration for Effective Security Analysis](https://www.linkedin.com/pulse/splunk-boss-soc-v3-datasets-your-ultimate-guide-uday-subramanya-hs).
 
 The dataset is located at: <https://github.com/splunk/botsv3.git>
+
+To check integrity of the files, use the `sha256sum` utility. See [How to take sha256sum of file and compare to check in one line?](https://superuser.com/questions/1312740/how-to-take-sha256sum-of-file-and-compare-to-check-in-one-line) for details.
+
+### Install BOTSv3 Apps
 
 Navigate to `apps >> Manage Apps`, and press the button `Install app from file`.
 
