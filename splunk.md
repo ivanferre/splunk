@@ -82,6 +82,8 @@ Video: <https://www.youtube.com/watch?v=GWl-TuAAF-k&list=PL7zWAA-DF0k_sxswRiB7_G
 
 In any case, after performing the following steps, navigate to this address in a supported browser: <http://127.0.0.1:8000/>
 
+If you can't remember the default user's password, see [How to Reset the Admin password?](https://community.splunk.com/t5/Security/How-to-Reset-the-Admin-password/m-p/10622)
+
 ### Windows
 
  In subsequent examples and information, replace `$SPLUNK_HOME with C:\Program Files\Splunk` if you have installed Splunk in the default location. You can also add `%SPLUNK_HOME%` as a system-wide environment variable by using the Advanced tab in the System Properties dialog box.
