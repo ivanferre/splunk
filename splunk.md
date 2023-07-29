@@ -1,10 +1,17 @@
 # Splunk
 
-## Teaching Assistant
+## Contacts
+
+### Teaching Assistant
 
 Dominic Järmann
 E-Mail: <dominic.jaermann@icloud.com>
 Telephone: 0787367787
+
+### Contacte de Steve
+
+Oliver Stapleton
+<oliver@splunk.com>
 
 ## Welcome
 
@@ -89,7 +96,30 @@ From a command prompt or PowerShell window, run the following commands:
     cd $SPLUNK_HOME/bin
     ./splunk start
 
+## BOTSv3
+
+Download Dataset from <https://github.com/splunk/botsv3>
+
+Install the dataset following the advice from Oliver.
+
+## Install BOTSv3 Dataset
+
+Following this source: [Splunk Boss of the SOC v3 Datasets: Your Ultimate Guide to Installation and Configuration for Effective Security Analysis](https://www.linkedin.com/pulse/splunk-boss-soc-v3-datasets-your-ultimate-guide-uday-subramanya-hs).
+
+The dataset is located at: <https://github.com/splunk/botsv3.git>
+
+Navigate to `apps >> Manage Apps`, and press the button `Install app from file`.
+
+Download the add-ons specified at
+<https://github.com/splunk/botsv3>
+
+[Install an add-on in a single-instance Splunk Enterprise deployment](https://docs.splunk.com/Documentation/AddOns/released/Overview/Singleserverinstall)
+
 ## TODO
+
+### Incidents Installing Apps
+
+[Create an overlay chart and explore visualization options](https://docs.splunk.com/Documentation/Splunk/9.0.5/SearchTutorial/Chartoverlays)
 
 ### Focus Track Materials
 
@@ -97,8 +127,6 @@ From a command prompt or PowerShell window, run the following commands:
 
  Username: `powercoders`
  Password: `$H0l1d41s$`
-
-[Splunk Boss of the SOC v3 Datasets: Your Ultimate Guide to Installation and Configuration for Effective Security Analysis](https://www.linkedin.com/pulse/splunk-boss-soc-v3-datasets-your-ultimate-guide-uday-subramanya-hs)
 
 [Boss of the SOC v3 Dataset Released!](https://www.splunk.com/en_us/blog/security/botsv3-dataset-released.html)
 

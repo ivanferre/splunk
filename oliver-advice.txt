@@ -1,0 +1,16 @@
+Nice to meet you! If in doubt, I would recommend the Ubuntu installation over the Windows installation. Running Splunk on Windows is supported but it's rather a niche use case compared to running on Unix.
+If no data is showing, then there must be an issue with the bots dataset downloaded from here (<https://github.com/splunk/botsv3>). I recommend trying to get this running before proceeding with the other prerequisites (data will still be available even if the other apps are not yet installed).
+I just verified on my Ubuntu installation with the latest Splunk Enterprise version (9.1.0) and data did populate. However, there might be some of the other apps that are no longer compatible with Splunk 9, as there are some requirements regarding Python & jQuery version that might not be met. BOTSv3 came out around 2020, so Splunk Enterprise 8.2 or even 8.1 might be a better option.
+
+Note that /opt/splunk/etc/apps/botsv3_data_set needs to be read- and writable to the user that is running Splunk. In my case, this user is called splunk, so after untarring the downloaded archive to /opt/splunk/etc/apps/, I also recursively changed the owner of the directory. Finally, don't forget to restart Splunk for changes to take effect.
+
+[ec2-user@myubuntuinstance apps]$ wget <https://botsdataset.s3.amazonaws.com/botsv3/botsv3_data_set.tgz>
+[ec2-user@myubuntuinstance apps]$ sudo tar -xvf botsv3_data_set.tgz -C /opt/splunk/etc/apps/
+[ec2-user@myubuntuinstance apps]$ cd /opt/splunk/etc/apps/
+[ec2-user@myubuntuinstance apps]$ sudo chown -R splunk:splunk botsv3_data_set/
+[ec2-user@myubuntuinstance apps]$ sudo su - splunk
+[splunk@myubuntuinstance ~]$ /opt/splunk/bin/splunk restart
+
+-> log into Splunk web UI as admin, and search for: index=botsv3 earliest=0
+
+If you see results, proceed with installing the pre-requisites. See comment above regarding Splunk version. On the Splunkbase page for each of the required apps, you can see whether or not it's supported by a specific Splunk Enterprise version. If you use an older Splunk Enterprise version, you might need to also download an older version of a specific app from the version history tab on the app page.
