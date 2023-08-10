@@ -102,9 +102,7 @@ From a command prompt or PowerShell window, run the following commands:
 
 ### Install BOTSv3 Dataset
 
-Download Dataset from <https://github.com/splunk/botsv3>
-
-Install the dataset following the advice from Oliver.
+Install the dataset and required software from the [Splunk repo](https://github.com/splunk/botsv3) in GitHub.
 
 ### Download BOTSv3 Apps
 
