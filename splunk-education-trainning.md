@@ -72,6 +72,12 @@ An example would be to trace a _transaction-id_. If we tag it at the firewall ev
 
 Tags can help to centralize the naming conventions behind your data and knowledge objects.
 
+Splunk Knowledge objects can be managed through **configuration files**.
+
+The **Pivot tool** helps users to create reports and dashboards without having to develop large and complex search expressions. The Pivot tool requires the definition of **data models** to do so.
+
+Large volumes of data can result in slow performance for Splunk software, whether you're launching a search, running a report, or trying to use Pivot. To speed things up the knowledge manager can make use of report acceleration, data model acceleration, and summary indexing to help ensure that the teams in your deployment can get results quickly and efficiently.
+
 #### Technical Add-Ons
 
 When you have a known data type coming in, you can implement a technical add-on. This add-on will take the data, ingest it, and apply known rules to it.
